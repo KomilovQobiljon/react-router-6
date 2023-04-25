@@ -1,0 +1,28 @@
+.card{
+  width: calc(50% - 20px);
+}
+
+.card__img{
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card__group{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.card__heading{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  position: relative;
+}
+.card__heading span{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  position: absolute;
+  top: 80%;
+  right: 0;
+}

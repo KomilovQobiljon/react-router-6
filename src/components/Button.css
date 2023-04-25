@@ -1,6 +1,30 @@
 .button {
-  background-color: #FF8C38;
+  background-color: #FFEAD0;
   border: none;
   border-radius: 5px;
-  padding: 10px 0;
+  color: #161616;
+  text-transform: capitalize;
+}
+.button--underline {
+  background-color: transparent;
+  border: none;
+  padding: 10px 0 0 0;
+  color: #161616 !important;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+.button--simple{
+  background-color: #E17654;
+  color: #FFEAD0;
+  font-weight: 600;
+}
+.button--rugged{
+  background-color: #115E59;
+  color: #FFEAD0;
+  font-weight: 600;
+}
+.button--luxury{
+  background-color: #161616;
+  color: #FFEAD0;
+  font-weight: 600;
 }

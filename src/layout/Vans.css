@@ -1,0 +1,33 @@
+.vans{
+  padding: 0 27px;
+  background-color: #FFF7ED;
+  color: #161616;
+}
+
+.vans > h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 34px;
+  margin-top: 55px;
+  margin-bottom: 23px;
+  color: #161616;
+}
+
+.vans__filters{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 56px;
+}
+.vans button {
+  padding: 5px 26px;
+  line-height: 24px;
+  width: fit-content;
+}
+
+.vans__grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 27px;
+  padding-bottom: 80px;
+}
