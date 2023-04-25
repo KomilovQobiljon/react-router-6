@@ -1,0 +1,41 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+#root {
+  max-width: 1280px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #FFF7ED;
+}
+
+.navbar{
+  color: #4D4D4D;
+  padding: 36px 26px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar__img{
+  width: 145px;
+}
+.navbar__group{
+  display: flex;
+}
+.navbar__group > a:not(:last-child){
+  margin-right: 13px;
+}
+
+.footer{
+  background-color: #252525;
+  color: #AAAAAA;
+  text-align: center;
+  width: 100%;
+  padding: 25px 0;
+  font-size: 14px;
+}
+
+

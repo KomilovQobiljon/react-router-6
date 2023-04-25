@@ -1,0 +1,32 @@
+.home{
+  background-color: none;
+  height: calc(100% - 96px - 71px);
+  background-image: url("../assets/home-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0 27px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.home__heading{
+  margin-bottom: 26px;
+}
+h2{
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 42px;
+}
+p{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.button{
+  width: 100%;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 32px;
+}
